@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(ironman.jpg);   
+    /* background-color: black; */
+    background-size: cover; 
+    background-position: center;
+}
+h2{
+    font-family: "Varela Round", sans-serif;
+}
+span{
+    color: #faf614;
+    font-size: 2em;
+    font-family: "Combo", system-ui;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: "Ysabeau Office", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ab0a85;
+    transition: .6s;
+}
+button{
+    background-color: #1e91d9;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    color: #452022;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .5s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #e0b53d;
+    color: #f8f8f5;
+}
+
+.about img{
+    height: 280px ;
+    width: 320px;
+    border: 3px solid #2d5d85;
+    border-radius: 50px;
+    position: relative;
+}
+.about img:hover{
+    box-shadow: 0px 0px 12px whitesmoke;
+    cursor: pointer;
+}
+/* .about img::after{
+    content: '';
+    position: absolute;
+    height: 280px
+    
+} */
+
+.about-text{
+    width:700px ;
+    /* border: 2px solid rgb(233, 253, 49); */
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.main{
+    width:800px;
+    max-width: 25%;
+    /* margin: 0 auto; */
+    margin-top: 90px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid rgb(65, 221, 232); */
+}
+.about-text h1{
+    color: white;
+    font-size: 30px;
+    font-family: "ABeeZee", sans-serif;
+    width: 300px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    /* border: 2px solid rgb(65, 87, 232); */
+}
+.about-text h3{
+    color: white;
+    font-size: 15px;
+    font-family: "ABeeZee", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    /* border: 2px solid rgb(240, 0, 188); */
+}
+ 
+.span1{
+    color: red;
+     font-family: "ABeeZee", sans-serif;
+    font-size: 15px;
+}
+.about-text p{
+    color: antiquewhite;
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 218x;
+    margin-bottom: 35px;
+    marg
+    /* border: 2px solid rgb(232, 65, 79); */
+}
+
+/* button1{
+    background: #faf614;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 90px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: 2px solid rgb(235, 239, 206);
+} */
+ /* .main2{
+    height: 100vh;
+    width: 100%;
+    background-image: url();  
+    background-size: cover; 
+    background-position: center;
+ } */
+
+
